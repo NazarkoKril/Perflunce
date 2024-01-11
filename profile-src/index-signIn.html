@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styledProfile.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Perfluence</title>
+  </head>
+  <body>
+    <header>
+      <div class="signIn__header">
+        <div class="container1">
+          <div class="header__dark-top">
+            <div class="logo__box">
+              <a href="../index.html"
+                ><img src="../img/Logo.png" alt="Logo" class="logo"
+              /></a>
+              <p class="logo__box-title">Perfluence</p>
+            </div>
+
+            <nav>
+              <ul class="header__dark-list">
+                <li class="header__dark-item">
+                  <a class="header__dark-link active" href="../index.html"
+                    >Main</a
+                  >
+                </li>
+                <li class="header__dark-item">
+                  <a class="header__dark-link" href="../index-brand.html"
+                    >For brands</a
+                  >
+                </li>
+                <li class="header__dark-item">
+                  <a class="header__dark-link" href="../index-bloggers.html"
+                    >For bloggers</a
+                  >
+                </li>
+                <li class="header__dark-item">
+                  <a class="header__dark-link" href="">Job</a>
+                </li>
+                <li class="header__dark-item">
+                  <a class="header__dark-link" href="">Reviews</a>
+                </li>
+                <li class="header__dark-item">
+                  <a class="header__dark-link" href="">FAQ</a>
+                </li>
+                <li class="header__dark-item">
+                  <a class="header__dark-link" href="../index-contact.html"
+                    >Contacts</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="header__dark-right">
+              <svg class="dark__right-icon">
+                <use href="./img/iconProfile.svg#globus"></use>
+              </svg>
+              <a class="dark__right-link" href=""
+                >English
+                <svg class="right__link-icon">
+                  <use href="./img/iconProfile.svg#arrow__down-solid"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section__main">
+        <div class="container">
+          <div class="signIn__container">
+            <img src="./img/sign-in__img.png" alt="people work" />
+            <div class="signIn__box">
+              <div class="signIn__top">
+                <div class="signIn__top-lang">
+                  <svg class="top__lang-icon">
+                    <use href="./img/iconProfile.svg#eng"></use>
+                  </svg>
+                  <a href="">
+                    <p class="top__lang-title">Eng</p>
+                    <svg class="top__lang-iconAr">
+                      <use href="./img/iconProfile.svg#arrow__down"></use>
+                    </svg>
+                  </a>
+                </div>
+                <a href="./index-signUp.html" class="signIn__top-a">
+                  Blogger registration
+                </a>
+              </div>
+              <div class="signIn__form">
+                <form>
+                  <div class="login__form">
+                    <h2 class="signIn__form-title">Sign in</h2>
+                    <p class="signIn__form-subtitle">
+                      Don't have an account?
+                      <a href="./index-signUp.html">Create an account</a>
+                    </p>
+                    <div class="signIn__input-container">
+                      <input
+                        type="text"
+                        id="email-or-phone"
+                        name="emailPhone"
+                        class="signIn__input"
+                        placeholder="Phone or e-mail"
+                      />
+                      <svg class="signIn__input-icon">
+                        <use href="./img/iconProfile.svg#login"></use>
+                      </svg>
+                    </div>
+                    <div class="signIn__input-container">
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="signIn__input"
+                        placeholder="Password"
+                      />
+                      <svg class="signIn__input-icon">
+                        <use href="./img/iconProfile.svg#eye"></use>
+                      </svg>
+                    </div>
+                    <div class="checkbox-group">
+                      <div class="checkbox-group1">
+                        <input
+                          type="checkbox"
+                          id="rememberMe"
+                          name="rememberMe"
+                          class="signIn__checkbox"
+                        />
+                        <p class="signIn__checkbox-p">Remember me</p>
+                      </div>
+                      <a class="checkbox-group-a" href="">Forgot password?</a>
+                    </div>
+
+                    <div class="captcha-container">
+                      <div class="checkbox-container">
+                        <input type="checkbox" id="notRobot" name="notRobot" />
+                        <p class="capcha__title">I am not a robot</p>
+                      </div>
+                      <div class="capcha">
+                        <img src="./img/capcha.png" alt="capcha" />
+                        <p class="capcha-p">reCAPTCHA</p>
+                        <p class="capcha-p1">Privacy - Terms</p>
+                      </div>
+                    </div>
+                    <p class="or__line">or</p>
+                    <div class="signIn__soc">
+                      <a class="signIn__item" href="">
+                        <svg class="signIn__icon">
+                          <use href="./img/iconProfile.svg#google"></use>
+                        </svg>
+                      </a>
+                      <a class="signIn__item" href="">
+                        <svg class="signIn__icon">
+                          <use href="./img/iconProfile.svg#facebook"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="login__btn">
+                    <a href="">Privacy</a>
+                    <button type="submit" class="submit-btn">Sign In</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__container">
+          <p class="footer__left">Lorem ipsum</p>
+          <a class="footer__logo" href="../index.html">
+            <img src="../img/Logo.png" alt="Logo" class="logo__footer" />
+          </a>
+          <div class="footer__right">
+            <p class="footer__right-text">Lorem ipsum</p>
+            <p class="footer__right-text">Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/indexProfile.js"></script>
+  </body>
+</html>
